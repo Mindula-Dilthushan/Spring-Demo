@@ -6,8 +6,16 @@
 
 ### Singleton
 
+![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/singleton.jpg)
+
+
 ### Prototype
 
 * SpringBean 1, SpringBean 2, SpringBean 3 (@Component) comment and DBConnection class (@Base) comment. Only SpringBean 4
+
+![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/prototype.jpg)
+
+
+
 
 
