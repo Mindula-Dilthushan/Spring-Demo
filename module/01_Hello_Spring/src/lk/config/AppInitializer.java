@@ -3,6 +3,7 @@ package lk.config;
 import lk.bean.DBConnection;
 import lk.bean.SpringBean;
 import lk.bean.SpringBean2;
+import lk.bean.SpringBean4;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class AppInitializer {
@@ -49,7 +50,10 @@ public class AppInitializer {
 //        DBConnection dBConnection2 = (DBConnection) ctx.getBean("db");
 //        System.out.println("DB Connection 2 : "+dBConnection2);
 
-
+        SpringBean4 springBean4_1 = ctx.getBean(SpringBean4.class);
+        System.out.println("SpringBean 4 : "+springBean4_1);
+        SpringBean4 springBean4_2 = ctx.getBean(SpringBean4.class);
+        System.out.println("SpringBean 4 : "+springBean4_2);
 
 
     }

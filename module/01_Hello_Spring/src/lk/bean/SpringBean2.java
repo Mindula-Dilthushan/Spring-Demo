@@ -3,7 +3,7 @@ package lk.bean;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class SpringBean2 implements DisposableBean {
 
     public SpringBean2(){
