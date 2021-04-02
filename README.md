@@ -22,6 +22,7 @@
 ![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/Loss%20Couple.jpg)
 
 ### Property injection, Constructor injection, Setter Method Injection, Interface through injection
+![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/property%20injection.jpg)
 
 
 
