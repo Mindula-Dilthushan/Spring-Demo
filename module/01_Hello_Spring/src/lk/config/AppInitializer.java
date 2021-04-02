@@ -24,9 +24,9 @@ public class AppInitializer {
         ctx.register(AppConfig.class);
         ctx.refresh();
 
-//      SpringBean bean = ctx.getBean(SpringBean.class);
+//      SpringBean lk.bean = ctx.getBean(SpringBean.class);
 
-        //Request From bean id
+        //Request From lk.bean id
         //class name --> first world first letter simple
 
 //        SpringBean springBean = (SpringBean) ctx.getBean("1");
@@ -49,6 +49,8 @@ public class AppInitializer {
 //        System.out.println("DB Connection 1 : "+dBConnection1);
 //        DBConnection dBConnection2 = (DBConnection) ctx.getBean("db");
 //        System.out.println("DB Connection 2 : "+dBConnection2);
+
+//===================== Prototype ============================================
 
         SpringBean4 springBean4_1 = ctx.getBean(SpringBean4.class);
         System.out.println("SpringBean 4 : "+springBean4_1);

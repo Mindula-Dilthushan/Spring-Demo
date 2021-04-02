@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "lk")
 public class AppConfig {
 
-    //Another way of specifying a bean to the container
-    //generate bean id from bean method name
+    //Another way of specifying a lk.bean to the container
+    //generate lk.bean id from lk.bean method name
     //we can change id as we want by passing a value to @Bean annotation
 //    @Bean("db")
     public DBConnection dbConnection(){
