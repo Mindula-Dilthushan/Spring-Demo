@@ -16,6 +16,11 @@
 ![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/prototype.jpg)
 
 
+## Spring Dependency
+
+### Loss Couple
+![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/Loss%20Couple.jpg)
+
 
 
 
