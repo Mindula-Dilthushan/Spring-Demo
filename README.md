@@ -24,5 +24,19 @@
 ### Property injection, Constructor injection, Setter Method Injection, Interface through injection
 ![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/property%20injection.jpg)
 
+## Full Mode vs Light Mode 
+
+### Module 03
+![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/FullMode%20vs%20LightMod.jpg)
+
+## Configuration
+
+### Module 04
+![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/Configuration.jpg)
+
+## Runtime Value Injection
+
+### Module 05 
+![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/Runtime%20Value%20Injection.jpg)
 
 
