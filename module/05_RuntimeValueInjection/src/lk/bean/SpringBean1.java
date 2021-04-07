@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import javax.swing.*;
 import javax.xml.bind.DatatypeConverter;
 
-@Component
+//@Component
 public class SpringBean1 {
 
 //    public SpringBean1() {
