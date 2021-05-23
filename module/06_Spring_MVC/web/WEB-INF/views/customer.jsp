@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title> Spring WEB MVC</title>
+    <title>Customer</title>
 </head>
 <body>
-    <h1> Welcome to Spring WEB MVC</h1>
+<h1>Customer Manage</h1>
 </body>
 </html>
