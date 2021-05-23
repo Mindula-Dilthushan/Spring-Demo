@@ -45,7 +45,7 @@
 ### Spring Web MVC Works
 ![mindula](https://github.com/Mindula-Dilthushan/Spring-Demo/blob/master/assets/Spring_MVC_Works.png)
 
-#### Spring Web MVC [Details](https://www.javatpoint.com/spring-mvc-tutorial)
+#### Spring Web MVC [Details From Javatpoint](https://www.javatpoint.com/spring-mvc-tutorial)
 
 - Model - A model contains the data of the application. A data can be a single object or a collection of objects.
 
