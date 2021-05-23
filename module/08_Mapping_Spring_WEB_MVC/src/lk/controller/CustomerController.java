@@ -21,7 +21,7 @@ public class CustomerController {
         return "Customer Search";
     }
 
-    @GetMapping("getAll")
+    @GetMapping(path = "getAll")
     public String getAllCustomer() {
         return "Get All Customer";
     }
