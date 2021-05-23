@@ -40,3 +40,7 @@
 ![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/Runtime%20Value%20Injection.jpg)
 
 
+## Spring WEB MVC
+
+### Spring Web MVC Works
+![mindula](https://github.com/Mindula-Dilthushan/Spring-Demo/blob/master/assets/Spring_MVC_Works.png)
