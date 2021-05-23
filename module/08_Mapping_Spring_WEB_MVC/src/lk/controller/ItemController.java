@@ -17,4 +17,19 @@ public class ItemController {
     public String saveItem2() {
         return "Save Item 2";
     }
+
+    //wild card
+    //Matches 0 or more characters within a path segment
+    //c/ddanjnadjsans/123
+    @GetMapping(path = "/c/*/123")
+    public String getItem3() {
+        return "Save Item Three Get";
+    }
+
+    //Matches 0 or more path segments until the end of the path
+    //c/dfffff/ddddddd/dfffff/555
+    @GetMapping(path = "/c/**/555")
+    public String getItem4() {
+        return "Save Item Four Get";
+    }
 }
