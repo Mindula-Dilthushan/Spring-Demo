@@ -18,5 +18,6 @@ public class WebAppConfig {
         viewResolver.setPrefix("/WEB-INF/views/");
         viewResolver.setSuffix(".jsp");
         return viewResolver;
+
     }
 }

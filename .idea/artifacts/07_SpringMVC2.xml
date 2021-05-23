@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="07_SpringMVC2">
+    <output-path>$PROJECT_DIR$/out/artifacts/07_SpringMVC2</output-path>
+    <root id="archive" name="07_SpringMVC2.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="07_Spring_MVC_2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring-aop-5.2.9.RELEASE-javadoc" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="07_Spring_MVC_2/web/Web" />
+    </root>
+  </artifact>
+</component>
