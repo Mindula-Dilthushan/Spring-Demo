@@ -21,4 +21,15 @@ public class MimeTypeController {
     public String mime2(){
         return "Content Text";
     }
+
+    @GetMapping(consumes = {MediaType.APPLICATION_JSON_VALUE},produces= {MediaType.TEXT_HTML_VALUE})
+    public String mime3(){
+        return "Request Content Type Must be Application/json - Response Content Type must be Application/json";
+    }
+
+    @GetMapping(consumes = {MediaType.TEXT_HTML_VALUE},produces= {MediaType.TEXT_HTML_VALUE})
+    public String mime4(){
+        return "Request Content Type Must be Text/HTML - Response Content Type must be Plain/Text";
+    }
+
 }
