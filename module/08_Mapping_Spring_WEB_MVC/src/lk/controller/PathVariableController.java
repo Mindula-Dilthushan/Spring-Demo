@@ -25,4 +25,10 @@ public class PathVariableController {
     public String find(@PathVariable String id, @PathVariable String name){
         return "ID : "+id+"   "+"Name : "+name;
     }
+
+    //Setting Allies for path variables
+    @GetMapping(path = "/my/{id}/{name}")
+    public String my(@PathVariable("id") String myID,@PathVariable("name") String myName){
+        return myID+" "+myName;
+    }
 }
