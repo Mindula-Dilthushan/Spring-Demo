@@ -19,4 +19,10 @@ public class PathVariableController {
     public String set(@PathVariable String name, @PathVariable String address){
         return "Name :"+name +" "+" "+"Address :"+address;
     }
+
+    //Path Variable can be validate using Reg-Ex
+    @GetMapping(path = "/find/{id:C[0-9]{3}}/{name:[A-z]{5}}")
+    public String find(@PathVariable String id, @PathVariable String name){
+        return "ID : "+id+"   "+"Name : "+name;
+    }
 }
