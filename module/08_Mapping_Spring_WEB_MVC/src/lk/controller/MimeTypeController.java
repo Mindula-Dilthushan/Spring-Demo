@@ -32,4 +32,8 @@ public class MimeTypeController {
         return "Request Content Type Must be Text/HTML - Response Content Type must be Plain/Text";
     }
 
+    @GetMapping(headers = {"Content-Type=text/html","Accept=text/html"})
+    public String mime5(){
+        return "Request Content Type Must be Text/HTML - Response Content Type must be Plain/Text";
+    }
 }
