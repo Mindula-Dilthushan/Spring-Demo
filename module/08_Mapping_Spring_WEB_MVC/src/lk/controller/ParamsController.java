@@ -24,7 +24,7 @@ public class ParamsController {
 
     @GetMapping(params ={"id", "name","address","salary"})
     public String params3(String id, String name, String address, Double salary){
-        System.out.println("ID / NAME / ADDRESS / SALARY");
+        System.out.println("ID and NAME and ADDRESS and SALARY");
         return id+" "+name+" "+address+" "+salary;
     }
 }
