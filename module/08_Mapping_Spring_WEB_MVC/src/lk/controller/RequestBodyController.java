@@ -1,9 +1,7 @@
 package lk.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lk.dto.CustomerDTO;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -31,4 +29,16 @@ public class RequestBodyController {
     public String body2(String id,String name,String address,String salary){
         return id+" "+name+" "+address+" "+salary;
     }
+
+    //Model Attribute
+    //Can get x-www-form-urlencoded type data and Query String data
+    //Not Supporting for application/json type
+
+    //Query String id,name == yes
+    //x-www-form-urlencoded (id,name,address,salary)== yes
+    @PostMapping
+    public String body3(@ModelAttribute CustomerDTO customerDTO){
+        return customerDTO.toString();
+    }
+
 }
