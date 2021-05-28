@@ -16,4 +16,14 @@ public class JSONController {
     public CustomerDTO getAllCustomers(){
         return new CustomerDTO("C001","Mindula","Matara","50000");
     }
+
+    @GetMapping("/boolean")
+    public boolean getBooleanResponse(){
+        return false;
+    }
+
+    @GetMapping("/number")
+    public int getNumberResponse(){
+        return 1000;
+    }
 }
