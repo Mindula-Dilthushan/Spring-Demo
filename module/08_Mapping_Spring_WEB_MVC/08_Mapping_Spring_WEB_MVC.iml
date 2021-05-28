@@ -9,6 +9,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
   </component>
@@ -21,5 +22,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="spring-aop-5.2.9.RELEASE-javadoc" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.65" level="application_server_libraries" />
+    <orderEntry type="library" name="jackson-annotations-2.12.3" level="project" />
   </component>
 </module>
