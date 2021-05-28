@@ -1,8 +1,8 @@
 package lk.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lk.dto.CustomerDTO;
+import org.springframework.web.bind.annotation.*;
+import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/api/v1/customer")
@@ -11,5 +11,25 @@ public class CustomerController {
     @GetMapping
     public String getCustomer(){
         return "Get Customer";
+    }
+
+    @PostMapping
+    public String saveCustomer(CustomerDTO customerDTO){
+        return customerDTO.toString();
+    }
+
+    @GetMapping(path = "/search")
+    public CustomerDTO searchCustomer(){
+        return new CustomerDTO("C001","Mindula","Matara",5000);
+    }
+
+    @PostMapping(path = "/model")
+    public String searchDTOCustomer(@ModelAttribute CustomerDTO customerDTO){
+        return customerDTO.toString();
+    }
+
+    @PostMapping(path = "/array")
+    public String saveCustomerWithArray(@RequestBody ArrayList<CustomerDTO> customerDTOArrayList){
+        return customerDTOArrayList.toString();
     }
 }
