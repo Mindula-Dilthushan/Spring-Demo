@@ -1,0 +1,112 @@
+<!--/**
+* @author : Sanu Vithanage
+* @since : 0.1.0
+**/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple POS</title>
+    <link href="assests/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="container-fluid bg-info p-3">
+    <h1 class="text-white">Customer Manage</h1>
+</section>
+<section class="container-fluid">
+    <section class="row mt-3">
+        <section class="col-md-4">
+            <form id="frmCustomer">
+                <div>
+                    <label class="form-label" for="customerID">Customer ID</label>
+                    <input class="form-control" id="customerID" name="id" type="text">
+                </div>
+                <div>
+                    <label class="form-label" for="customerName">Customer Name</label>
+                    <input class="form-control" id="customerName" name="name" type="text">
+                </div>
+                <div>
+                    <label class="form-label" for="customerAddress">Customer Address</label>
+                    <input class="form-control" id="customerAddress" name="address" type="text">
+                </div>
+                <div>
+                    <label class="form-label" for="customerSalary">Customer Salary</label>
+                    <input class="form-control" id="customerSalary" name="salary" type="text">
+                </div>
+                <div class="btn-group mt-3">
+                    <button class="btn btn-primary" id="btnSave" type="button">Register Customer</button>
+                    <button class="btn btn-info" id="btnSearch" type="button">Search</button>
+                    <button class="btn btn-danger" id="btnRemove" type="button">Remove</button>
+                    <button class="btn btn-warning" id="btnGetAll" type="button">Get All</button>
+                </div>
+            </form>
+        </section>
+        <section class="col-md-8">
+            <table class="table table-hover table-bordered">
+                <thead class="bg-danger text-white">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Salary</th>
+                </tr>
+                </thead>
+                <tbody id="tBody">
+
+                </tbody>
+            </table>
+        </section>
+    </section>
+</section>
+
+
+<script src="assests/js/jquery-3.6.0.min.js"></script>
+<script src="assests/js/bootstrap.min.js"></script>
+<script>
+
+    //x-www-form-urlencoded type
+    /*
+        $("#btnSave").click(function () {
+            let formData = $("#frmCustomer").serialize();
+
+            $.ajax({
+                method: "POST",
+                url: "http://localhost:8080/09_Maven_war_exploded/api/v1/customer",
+                async: true,
+                data: formData,
+                success: function (data) {
+                    console.log(data);
+                }
+            });
+        });
+    */
+
+    $("#btnSave").click(function () {
+
+        let customerID = $("#customerID").val();
+        let customerName = $("#customerName").val();
+        let customerAddress = $("#customerAddress").val();
+        let customerSalary = $("#customerSalary").val();
+
+        $.ajax({
+            method: "POST",
+            url: "http://localhost:8080/09_Maven_war_exploded/api/v1/customer/json",
+            contentType: 'application/json',
+            async: true,
+            data: JSON.stringify({
+                id: customerID,
+                name: customerName,
+                address: customerAddress,
+                salary: customerSalary
+            }),
+            success: function (data) {
+                console.log(data);
+            }
+        });
+
+
+    });
+
+</script>
+</body>
+</html>
