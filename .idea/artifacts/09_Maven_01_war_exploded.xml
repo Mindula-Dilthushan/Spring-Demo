@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="09_Maven_01:war exploded">
-    <output-path>$PROJECT_DIR$/module/09_Maven_01/target/${project.artifactId}-${project.version}</output-path>
+    <output-path>$PROJECT_DIR$/module/09_Maven_01/target/09_Maven_01-1.0.0</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -13,9 +13,19 @@
         <element id="directory" name="classes">
           <element id="module-output" name="09_Maven_01" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.7" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/module/09_Maven_01/target/${project.artifactId}-${project.version}/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/module/09_Maven_01/target/09_Maven_01-1.0.0/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="09_Maven_01/web/Web" />
     </root>
