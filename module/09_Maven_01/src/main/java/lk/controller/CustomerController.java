@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/api/v1/customer")
+@CrossOrigin
 public class CustomerController {
 
     @GetMapping
@@ -31,5 +32,10 @@ public class CustomerController {
     @PostMapping(path = "/array")
     public String saveCustomerWithArray(@RequestBody ArrayList<CustomerDTO> customerDTOArrayList){
         return customerDTOArrayList.toString();
+    }
+
+    @PostMapping(path = "/json")
+    public String saveCustomerJsonUse(@RequestBody CustomerDTO customerDTO){
+        return customerDTO.toString();
     }
 }

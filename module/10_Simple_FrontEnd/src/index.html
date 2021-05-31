@@ -1,13 +1,9 @@
-<!--/**
-* @author : Sanu Vithanage
-* @since : 0.1.0
-**/-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Simple POS</title>
-    <link href="assests/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <section class="container-fluid bg-info p-3">
@@ -33,11 +29,11 @@
                     <label class="form-label" for="customerSalary">Customer Salary</label>
                     <input class="form-control" id="customerSalary" name="salary" type="text">
                 </div>
-                <div class="btn-group mt-3">
-                    <button class="btn btn-primary" id="btnSave" type="button">Register Customer</button>
-                    <button class="btn btn-info" id="btnSearch" type="button">Search</button>
-                    <button class="btn btn-danger" id="btnRemove" type="button">Remove</button>
-                    <button class="btn btn-warning" id="btnGetAll" type="button">Get All</button>
+                <div class="btn-group mt-2">
+                    <button class="btn btn-primary m-1" id="btnSave" type="button">Register Customer</button>
+                    <button class="btn btn-info m-1" id="btnSearch" type="button">Search</button>
+                    <button class="btn btn-danger m-1" id="btnRemove" type="button">Remove</button>
+                    <button class="btn btn-warning m-1" id="btnGetAll" type="button">Get All</button>
                 </div>
             </form>
         </section>
@@ -60,8 +56,8 @@
 </section>
 
 
-<script src="assests/js/jquery-3.6.0.min.js"></script>
-<script src="assests/js/bootstrap.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script>
 
     //x-www-form-urlencoded type
@@ -71,7 +67,7 @@
 
             $.ajax({
                 method: "POST",
-                url: "http://localhost:8080/09_Maven_war_exploded/api/v1/customer",
+                url: "http://localhost:8080/09_Maven_01_war/api/v1/customer/json",
                 async: true,
                 data: formData,
                 success: function (data) {
@@ -82,15 +78,13 @@
     */
 
     $("#btnSave").click(function () {
-
         let customerID = $("#customerID").val();
         let customerName = $("#customerName").val();
         let customerAddress = $("#customerAddress").val();
         let customerSalary = $("#customerSalary").val();
-
         $.ajax({
             method: "POST",
-            url: "http://localhost:8080/09_Maven_war_exploded/api/v1/customer/json",
+            url: "http://localhost:8080/09_Maven_01_war/api/v1/customer/json",
             contentType: 'application/json',
             async: true,
             data: JSON.stringify({
@@ -103,8 +97,6 @@
                 console.log(data);
             }
         });
-
-
     });
 
 </script>
