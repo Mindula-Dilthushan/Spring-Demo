@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping />
+        <naming-strategy-map />
+      </configuration>
+    </facet>
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
@@ -28,5 +35,12 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-jpa:2.5.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.5.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.7" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.7" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.7" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.9.6" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.26" level="project" />
   </component>
 </module>
