@@ -1,6 +1,6 @@
 # Spring-Demo-Tutorial 
 
-## Spring context and lk.bean lifecycle callbacks
+## Spring context and lifecycle callbacks
 
 ![image](https://github.com/Mindula-Dilthushan/Spring-Demo-Tutorial/blob/master/assets/Spring%20context%20and%20bean%20lifecycle%20callbacks.png)
 
