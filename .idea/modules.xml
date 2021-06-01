@@ -12,7 +12,6 @@
       <module fileurl="file://$PROJECT_DIR$/module/08_Mapping_Spring_WEB_MVC/08_Mapping_Spring_WEB_MVC.iml" filepath="$PROJECT_DIR$/module/08_Mapping_Spring_WEB_MVC/08_Mapping_Spring_WEB_MVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/module/09_Maven_01/09_Maven_01.iml" filepath="$PROJECT_DIR$/module/09_Maven_01/09_Maven_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/module/10_Simple_FrontEnd/10_Simple_FrontEnd.iml" filepath="$PROJECT_DIR$/module/10_Simple_FrontEnd/10_Simple_FrontEnd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module/11_Spring_Data_JPA/11_Spring_Data_JPA.iml" filepath="$PROJECT_DIR$/module/11_Spring_Data_JPA/11_Spring_Data_JPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/module/11_Spring__Data_JPA/11_Spring__Data_JPA.iml" filepath="$PROJECT_DIR$/module/11_Spring__Data_JPA/11_Spring__Data_JPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-Demo.iml" filepath="$PROJECT_DIR$/Spring-Demo.iml" />
     </modules>

@@ -1,83 +1,13 @@
 <component name="libraryTable">
-  <library name="spring-aop-5.2.9.RELEASE-javadoc1">
+  <library name="Maven: org.hibernate:hibernate-core:5.4.32.Final">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/spring-aop-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-aspects-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-beans-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-indexer-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-support-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-core-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-expression-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-instrument-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jcl-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jms-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-messaging-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-orm-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-oxm-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-test-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-tx-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-web-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-webflux-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-5.2.9.RELEASE.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-websocket-5.2.9.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.32.Final/hibernate-core-5.4.32.Final.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/lib/spring-aop-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-aspects-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-beans-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-indexer-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-support-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-core-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-expression-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-instrument-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jcl-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jms-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-messaging-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-orm-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-oxm-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-test-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-tx-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-web-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-webflux-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-5.2.9.RELEASE-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-websocket-5.2.9.RELEASE-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.32.Final/hibernate-core-5.4.32.Final-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/lib/spring-aop-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-aspects-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-beans-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-beans-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-indexer-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context-support-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-core-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-core-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-expression-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-instrument-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jcl-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-jms-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-messaging-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-messaging-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-orm-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-oxm-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-test-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-test-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-tx-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-tx-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-web-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-web-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-webflux-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-webflux-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-5.2.9.RELEASE-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-websocket-5.2.9.RELEASE-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.32.Final/hibernate-core-5.4.32.Final-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
