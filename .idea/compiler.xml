@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="11_Spring__Data_JPA" />
         <module name="11_Spring_Data_JPA" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="09_Maven_01" target="8" />
       <module name="10_Simple_FrontEnd" target="8" />
+      <module name="11_Spring__Data_JPA" target="8" />
       <module name="11_Spring_Data_JPA" target="8" />
     </bytecodeTargetLevel>
   </component>
