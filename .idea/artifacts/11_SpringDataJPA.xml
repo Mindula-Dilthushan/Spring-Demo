@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="11_SpringDataJPA">
+    <output-path>$PROJECT_DIR$/out/artifacts/11_SpringDataJPA</output-path>
+    <root id="archive" name="11_SpringDataJPA.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="11_Spring__Data_JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.7" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.7" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

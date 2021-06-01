@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="11_Spring__Data_JPA" />
-        <module name="11_Spring_Data_JPA" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
