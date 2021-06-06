@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/">
-    <Resource>
-        name="jdbc/pool"
-        type="javax.sql.DataSource"
-        driverClassName="com.mysql.cj.jdbc.Driver"
-        url="jdbc:mysql://localhost:3306/spring?createDatabaseIfNotExist=true"
-        username="root"
-        password="1023"
-        maxTotal="2"
-        initialSize="2">
-    </Resource>
+    <Resource
+            name="jdbc/spring"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxActive="2"
+            maxIdle="2"
+            maxWait="2"
+            username="root"
+            password="1023"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/spring?createDatabaseIfNotExist=true"
+    />
 </Context>
+
