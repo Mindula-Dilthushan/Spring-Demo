@@ -1,7 +1,5 @@
 package lk.dto;
 
-import org.springframework.context.annotation.Configuration;
-
 public class CustomerDTO {
 
     private String id;
