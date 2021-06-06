@@ -13,7 +13,7 @@ public class CustomerController {
         return "Get Customer Module 11";
     }
 
-    @GetMapping(path = "/save")
+    @GetMapping(path = "/saveCust")
     public String saveCustomer(@RequestBody CustomerDTO customerDTO){
         return "Save Customer";
     }
