@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource>
+        name="jdbc/pool"
+        type="javax.sql.DataSource"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/spring?createDatabaseIfNotExist=true"
+        username="root"
+        password="1023"
+        maxTotal="2"
+        initialSize="2">
+    </Resource>
+</Context>
