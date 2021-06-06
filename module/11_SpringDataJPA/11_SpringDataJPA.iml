@@ -21,6 +21,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="11_SpringDataJPA" />
+          <factory-entry name="entityManagerFactory" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
@@ -104,8 +105,10 @@
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.0.1" level="project" />
-    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.cassandra:cassandra-thrift:0.8.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.stephenc:jamm:0.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-dbcp2:2.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.8.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
   </component>
 </module>

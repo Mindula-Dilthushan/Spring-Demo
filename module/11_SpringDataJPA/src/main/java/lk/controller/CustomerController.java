@@ -1,9 +1,7 @@
 package lk.controller;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lk.dto.CustomerDTO;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/customer")
@@ -13,5 +11,10 @@ public class CustomerController {
     @GetMapping
     public String getCustomer(){
         return "Get Customer Module 11";
+    }
+
+    @GetMapping(path = "/save")
+    public String saveCustomer(@RequestBody CustomerDTO customerDTO){
+        return "Save Customer";
     }
 }
