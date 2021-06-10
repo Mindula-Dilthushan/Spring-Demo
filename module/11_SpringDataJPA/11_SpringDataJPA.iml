@@ -83,5 +83,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.7" level="project" />
+    <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:2.4.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.8" level="project" />
   </component>
 </module>
