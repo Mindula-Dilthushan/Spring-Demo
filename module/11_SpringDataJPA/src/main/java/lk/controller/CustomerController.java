@@ -11,39 +11,35 @@ import java.util.ArrayList;
 public class CustomerController {
 
     @Autowired
-    private CustomerService customerService;
+    private CustomerService service;
 
-    @GetMapping
-    public String getCustomer(){
-        return "Get Customer Module 11";
-    }
 
     @PostMapping
-    public String saveCustomer(CustomerDTO dto) {
-        boolean b = customerService.addCustomer(dto);
-        return "";
+    public String saveCustomer(@RequestBody CustomerDTO dto) {
+        boolean b = service.addCustomer(dto);
+        return b + "";
     }
+
 
     @GetMapping
     public ArrayList<CustomerDTO> getAllCustomers() {
-        return customerService.getAllCustomers();
+        return service.getAllCustomers();
     }
 
     @GetMapping(path = "/{id}")
     public CustomerDTO searchCustomer(@PathVariable String id) {
-        return customerService.searchCustomer(id);
+        return service.searchCustomer(id);
     }
-
 
     @DeleteMapping(params = {"id"})
     public String deleteCustomer(@RequestParam String id) {
-        boolean b = customerService.deleteCustomer(id);
+        boolean b = service.deleteCustomer(id);
         return b + "";
     }
 
     @PutMapping
     public String updateCustomer(@RequestBody CustomerDTO dto) {
-        boolean b = customerService.updateCustomer(dto);
+        boolean b = service.updateCustomer(dto);
         return b + "";
     }
 }
